@@ -9,7 +9,7 @@ export default function Timer() {
       setState((prevState) => prevState + 1);
       console.log(id.current);
     }, 1000);
-  }
+  } 
 
   function stop() {
     clearInterval(id.current);
