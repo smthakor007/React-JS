@@ -16,7 +16,7 @@ function Counter() {
     const updated = [...text];
 
     if (editIndex !== null) {
-      
+
       updated.splice(editIndex, 1, state);
       settext(updated);
       setEditIndex(null);
@@ -30,7 +30,7 @@ function Counter() {
 
   function handleDelete(index) {
     const updated = [...text];
-    updated.splice(index, 1); 
+    updated.splice(index, 1);
     settext(updated);
   }
 

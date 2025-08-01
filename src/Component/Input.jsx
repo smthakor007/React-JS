@@ -7,7 +7,7 @@ function Input() {
   const [color, setColor] = useState('black');
 
   renderCountRef.current += 1; 
-
+  
   const handleSubmit = () => {
     const value = inputRef.current.value;
     submitCountRef.current += 1; 
