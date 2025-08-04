@@ -1,24 +1,25 @@
 import React, { useState, useEffect } from 'react';
-// import Navbar from './Bthomepage/Navbar'
-// import Slider from './Bthomepage/Slider'
-// import Cards from './Bthomepage/Cards'
-// import About from './Bthomepage/About'
-// import Footer from './Bthomepage/Footer'
+import Navbar from './Bthomepage/Navbar'
+import Slider from './Bthomepage/Slider'
+import Cards from './Bthomepage/Cards'
+import About from './Bthomepage/About'
+import Footer from './Bthomepage/Footer'
 import Home from './Component/Home';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import Localbox from './Component/Localbox';
 
 // import { WithLoading } from './Component/Userlist';
 // import UserList from './Component/Withloading';
 // import Timer from './Component/Timer';
-import Fetch from './Component/Fetch';
-import Toddoo from './Component/Toddoo'
-import Counter from './Component/Counter';
+// import Fetch from './Component/Fetch';
+// import Toddoo from './Component/Toddoo'
+// import Counter from './Component/Counter';
 // import Counter1 from './Component/Counter';
 // import Input from'./Component/Input';
-import User from './Component/User';
-import Todo1 from './Component/Todo1';
-import Nav from './Nav';
+// import User from './Component/User';
+// import Todo1 from './Component/Todo1';
+// import Nav from './Nav';
 import { Route, Routes } from 'react-router-dom';
 // import Comment from './Component/Comment';
 // import Tabale from './Component/Tabale';
@@ -28,6 +29,7 @@ import Timer from './Component/Timer'
 import Product from './Component/Product';
 import Tabale from './Component/Tabale';
 import Prac from './Component/Prac';
+// import Localbox from './Component/Localbox';
 
 export default function App() {
   // const [loading, setLoading] = useState(true);
@@ -54,7 +56,8 @@ export default function App() {
        <Cards/>
        <About/>
        <Footer/> */}
-       <Home/>``
+       {/* <Home/>`` */}
+       <Localbox/>
       {/* <Nav />
 
       <Routes>
