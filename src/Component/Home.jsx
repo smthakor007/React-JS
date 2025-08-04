@@ -49,7 +49,7 @@ function Home() {
     sectionHeading: {
       textAlign: 'center',
       fontSize: '36px',
-      margin: '50px 0 20px',
+      margin: '40px 0 50px',
       color: '#222',
     },
     cardSection: {
@@ -220,7 +220,7 @@ function Home() {
         </Form>
       </section>
 
-      {/* Footer */}
+      {/* Footer  */}
       <footer style={styles.footer}>
         <div style={{ marginBottom: '10px' }}>
           <a href="#slider" style={styles.footerLink}>Home</a>
