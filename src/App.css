@@ -1,38 +1,115 @@
-.App {
-  text-align: center;
+/* App.css */
+
+/* Customize the navbar */
+.navbar-custom {
+  background-color: #0d1117 !important;
+  padding: 0.7rem 1.5rem;
+  border-bottom: 1px solid #30363d;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Navbar brand logo/title */
+.navbar-custom .navbar-brand {
+  color: #58a6ff !important;
+  font-weight: 600;
+  font-size: 1.5rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Navbar links */
+.navbar-custom .nav-link {
+  color: #c9d1d9 !important;
+  transition: color 0.3s ease;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar-custom .nav-link:hover {
+  color: #58a6ff !important;
+}
+
+/* Dropdown */
+.navbar-custom .dropdown-menu {
+  background-color: #161b22;
+  border: 1px solid #30363d;
+}
+
+.navbar-custom .dropdown-item {
+  color: #c9d1d9;
+}
+
+.navbar-custom .dropdown-item:hover {
+  background-color: #21262d;
+  color: #58a6ff;
+}
+
+/* Search input and button */
+.navbar-custom .form-control {
+  background-color: #0d1117;
+  border: 1px solid #30363d;
+  color: #c9d1d9;
+}
+
+.navbar-custom .form-control::placeholder {
+  color: #8b949e;
+}
+
+.navbar-custom .btn-outline-success {
+  color: #58a6ff;
+  border-color: #58a6ff;
+}
+
+.navbar-custom .btn-outline-success:hover {
+  background-color: #58a6ff;
+  color: #0d1117;
+  border-color: #58a6ff;
+}
+
+.carousel-item img {
+  height: 500px; 
+  object-fit: cover; 
+}
+
+
+/* Cards  */
+
+.card-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 20px;
+}
+
+.img-card {
+  position: relative;
+  width: 300px;
+  height: 330px;
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.img-card:hover {
+  transform: scale(1.05);
+}
+
+.img-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-overlay {
+  position: absolute;
+  bottom: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
   color: white;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+/* Footer  */
+
