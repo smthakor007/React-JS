@@ -6,8 +6,8 @@ export default function Api() {
   const [list, setList] = useState([]);
   const [edit, setEdit] = useState(null);
   const [search, setSearch] = useState("");
-  const [allData, setAllData] = useState([]); 
-  const [sortOrder, setSortOrder] = useState(""); 
+  const [allData, setAllData] = useState([]);
+  const [sortOrder, setSortOrder] = useState("");
 
   useEffect(() => {
     fetchApi();
@@ -23,18 +23,18 @@ export default function Api() {
     }
   };
 
-  
+
   useEffect(() => {
     let result = [...allData];
 
-   
+
     if (search.trim()) {
       result = result.filter((item) =>
         item.name.toLowerCase().includes(search.toLowerCase())
       );
     }
 
-    
+
     if (sortOrder === "asc") {
       result.sort((a, b) => a.price - b.price);
     } else if (sortOrder === "desc") {
@@ -87,7 +87,7 @@ export default function Api() {
     <div>
       <h1>CRUD with API</h1>
 
-      {/* Search */}
+
       <input
         type="text"
         placeholder="Search by name..."
@@ -95,14 +95,14 @@ export default function Api() {
         onChange={(e) => setSearch(e.target.value)}
       />
 
-      {/* Sort */}
+
       <select value={sortOrder} onChange={(e) => setSortOrder(e.target.value)}>
         <option value="">Sort by Price</option>
         <option value="asc">Low → High</option>
         <option value="desc">High → Low</option>
       </select>
 
-      {/* Form */}
+
       <form onSubmit={submit}>
         <input
           type="text"
@@ -132,7 +132,7 @@ export default function Api() {
         {edit && <button onClick={cancelEdit}>Cancel</button>}
       </form>
 
-      {/* List */}
+
       <ul>
         {list.length > 0 ? (
           list.map((i) => (
