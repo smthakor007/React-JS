@@ -1,18 +1,32 @@
-import React from 'react'
-import { Outlet } from 'react-router-dom'
-import { Link } from 'react-router-dom'
+import { useState, useEffect } from "react";    
+import { Link } from "react-router-dom";
 
+function API() {
+    const [products, setProducts] = useState([]); 
 
-export default function Product() {
-  return (
-    <div>
-      <div>
-        <Link to='Table'>Table</Link>
-        <Link to='Toddo'>Toddo</Link>
-      </div>
+    useEffect(() => {
+        fetch('https://fakestoreapi.com/products?limit=5')
+            .then(res => res.json())
+            .then(data => {
+                console.log(data);
+                setProducts(data);
+            })
+            .catch(error => console.error('Error:', error));
+    }, []);
+
+    return (
         <div>
-          <Outlet/>
+            <ul>
+                {products.map((item) => (
+                    <li key={item.id}>
+                        <Link to={`/Productdetail/${item.id}`}>{item.title}</Link> <br />
+                        <img src={item.image} alt={item.title} width="100" />
+                        <p>${item.price}</p>
+                    </li>
+                ))}
+            </ul>
         </div>
-      </div>
-  )
+    );
 }
+
+export default API;
