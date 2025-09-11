@@ -85,7 +85,7 @@ export default function Api() {
 
   return (
     <div>
-      <h1>CRUD with API</h1>
+      <h1> Api</h1>
 
 
       <input

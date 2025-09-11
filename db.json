@@ -1,96 +1,124 @@
 {
   "data": [
     {
-      "id": 1,
-      "name": "Designer Kurti",
-      "price": "1200",
-      "category": "kurti",
-      "img": "https://i.etsystatic.com/22489341/r/il/5202da/3203911478/il_fullxfull.3203911478_pkgx.jpg"
+      "id": "1",
+      "img": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTqI3sUGGWzkDUl9HP-wqKD-SP0Gy6GmjbHJoIBpforZy293NvZWVwgEMnqf6YN2I8gMnzerdxdHIB_-Y-RPBjj2yAmpdxVBxN9N-gzNkCAtrk6ZGAYZPMs",
+      "price": "₹ 6000",
+      "desc": "watch",
+      "category": "watch"
     },
     {
-      "id": 2,
-      "name": "Cotton Kurti",
-      "price": "800",
-      "category": "kurti",
-      "img": "https://www.destinybyanjali.com/cdn/shop/files/handpainted_kurti_IMG_4358copy_1800x1800.jpg?v=1694902663"
+      "id": "2",
+      "img": "https://m.media-amazon.com/images/I/61FcXMhjr8L._SX679_.jpg",
+      "price": "₹ 17499",
+      "desc": "phone",
+      "category": "phone"
     },
     {
-      "id": 3,
-      "name": "Smart Watch",
-      "price": "2500",
-      "category": "watch",
-      "img": "https://img.freepik.com/premium-photo/luxury-watch-isolated-solid-background_914455-8346.jpg"
+      "id": "3",
+      "img": "https://m.media-amazon.com/images/I/81Ok5wIDwYL.jpg",
+      "price": "₹ 300",
+      "desc": "cloth",
+      "category": "cloth"
     },
     {
-      "id": 4,
-      "name": "Analog Watch",
-      "price": "1500",
-      "category": "watch",
-      "img": "https://wallpaperaccess.com/full/366217.jpg"
-    },
-    {
-      "id": 5,
-      "name": "Wireless Headphone",
-      "price": "3500",
-      "category": "headphone",
-      "img": "https://i5.walmartimages.com/asr/e3760653-bdd9-4c82-9548-2a24e98b6887.5af09e31cda0a9219880ed45fffc8944.jpeg?odnWidth=1000&odnHeight=1000&odnBg=ffffff"
-    },
-    {
-      "id": 6,
-      "name": "Wired Headphone",
-      "price": "1200",
-      "category": "headphone",
-      "img": "https://cdn.pixabay.com/photo/2023/05/27/08/20/headphones-8021022_960_720.jpg"
-    }
-  ],
-  "kurti": [
-    {
-      "id": 1,
-      "name": "Designer Kurti",
-      "price": "1200",
-      "category": "kurti",
-      "img": "https://i.etsystatic.com/22489341/r/il/5202da/3203911478/il_fullxfull.3203911478_pkgx.jpg"
-    },
-    {
-      "id": 2,
-      "name": "Cotton Kurti",
-      "price": "800",
-      "category": "kurti",
-      "img": "https://www.destinybyanjali.com/cdn/shop/files/handpainted_kurti_IMG_4358copy_1800x1800.jpg?v=1694902663"
+      "id": "4  ",
+      "img": "https://5.imimg.com/data5/SELLER/Default/2024/4/413493988/QG/HD/GE/27551478/hadphone.jpg",
+      "price": "₹ 2000",
+      "desc": "hadphone",
+      "category": "hadphone"
     }
   ],
   "watch": [
     {
-      "id": 1,
-      "name": "Smart Watch",
-      "price": "2500",
-      "category": "watch",
-      "img": "https://img.freepik.com/premium-photo/luxury-watch-isolated-solid-background_914455-8346.jpg"
+      "id": "1",
+      "img": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTqI3sUGGWzkDUl9HP-wqKD-SP0Gy6GmjbHJoIBpforZy293NvZWVwgEMnqf6YN2I8gMnzerdxdHIB_-Y-RPBjj2yAmpdxVBxN9N-gzNkCAtrk6ZGAYZPMs",
+      "price": "₹ 6000",
+      "desc": "watch",
+      "category": "watch"
     },
     {
-      "id": 2,
-      "name": "Analog Watch",
-      "price": "1500",
-      "category": "watch",
-      "img": "https://wallpaperaccess.com/full/366217.jpg"
+      "id": "2",
+      "img": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTqI3sUGGWzkDUl9HP-wqKD-SP0Gy6GmjbHJoIBpforZy293NvZWVwgEMnqf6YN2I8gMnzerdxdHIB_-Y-RPBjj2yAmpdxVBxN9N-gzNkCAtrk6ZGAYZPMs",
+      "price": "₹ 6000",
+      "desc": "watch",
+      "category": "watch"
+    },
+    {
+      "id": "3",
+      "img": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTqI3sUGGWzkDUl9HP-wqKD-SP0Gy6GmjbHJoIBpforZy293NvZWVwgEMnqf6YN2I8gMnzerdxdHIB_-Y-RPBjj2yAmpdxVBxN9N-gzNkCAtrk6ZGAYZPMs",
+      "price": "₹ 6000",
+      "desc": "watch",
+      "category": "watch"
     }
   ],
-  "headphone": [
+  "phone": [
     {
-      "id": 1,
-      "name": "Wireless Headphone",
-      "price": "3500",
-      "category": "headphone",
-      "img": "https://i5.walmartimages.com/asr/e3760653-bdd9-4c82-9548-2a24e98b6887.5af09e31cda0a9219880ed45fffc8944.jpeg?odnWidth=1000&odnHeight=1000&odnBg=ffffff"
+      "id": "1",
+      "img": "https://m.media-amazon.com/images/I/61FcXMhjr8L._SX679_.jpg",
+      "price": "₹ 17499",
+      "desc": "phone",
+      "category": "phone"
     },
     {
-      "id": 2,
-      "name": "Wired Headphone",
-      "price": "1200",
-      "category": "headphone",
-      "img": "https://cdn.pixabay.com/photo/2023/05/27/08/20/headphones-8021022_960_720.jpg"
-
+      "id": "2",
+      "img": "https://m.media-amazon.com/images/I/61FcXMhjr8L._SX679_.jpg",
+      "price": "₹ 17499",
+      "desc": "phone",
+      "category": "phone"
+    },
+    {
+      "id": "3",
+      "img": "https://m.media-amazon.com/images/I/61FcXMhjr8L._SX679_.jpg",
+      "price": "₹ 17499",
+      "desc": "phone",
+      "category": "phone"
     }
-
+  ],
+  "cloth": [
+    {
+      "id": "1",
+      "img": "https://m.media-amazon.com/images/I/81Ok5wIDwYL.jpg",
+      "price": "₹ 300",
+      "desc": "cloth",
+      "category": "cloth"
+    },
+    {
+      "id": "1",
+      "img": "https://m.media-amazon.com/images/I/81Ok5wIDwYL.jpg",
+      "price": "₹ 300",
+      "desc": "cloth",
+      "category": "cloth"
+    },
+    {
+      "id": "1",
+      "img": "https://m.media-amazon.com/images/I/81Ok5wIDwYL.jpg",
+      "price": "₹ 300",
+      "desc": "cloth",
+      "category": "cloth"
+    }
+  ],
+  "hadphone": [
+    {
+      "id": "1",
+      "img": "https://5.imimg.com/data5/SELLER/Default/2024/4/413493988/QG/HD/GE/27551478/hadphone.jpg",
+      "price": "₹ 2000",
+      "desc": "hadphone",
+      "category": "hadphone"
+    },
+    {
+      "id": "2",
+      "img": "https://5.imimg.com/data5/SELLER/Default/2024/4/413493988/QG/HD/GE/27551478/hadphone.jpg",
+      "price": "₹ 2000",
+      "desc": "hadphone",
+      "category": "hadphone"
+    },
+    {
+      "id": "3",
+      "img": "https://5.imimg.com/data5/SELLER/Default/2024/4/413493988/QG/HD/GE/27551478/hadphone.jpg",
+      "price": "₹ 2000",
+      "desc": "hadphone",
+      "category": "hadphone"
+    }
   ]
 }

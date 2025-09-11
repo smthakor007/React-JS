@@ -3,8 +3,7 @@ import axios from 'axios'
 import { Link } from 'react-router-dom'
 
 export default function HomeP() {
-
-  const [product, setProduct] = useState([])
+  const [products, setProducts] = useState([])
 
   useEffect(() => {
     fetchApi()
@@ -12,27 +11,24 @@ export default function HomeP() {
 
   const fetchApi = async () => {
     try {
-      const info = await axios.get("http://localhost:5000/data") 
-      setProduct(info.data)
+      const response = await axios.get("http://localhost:3000/data")
+      setProducts(response.data)
     } catch (error) {
       console.error("Error fetching products:", error)
     }
-  } 
+  }
 
   return (
-    <div>
-      {
-        product.map((el, index) => (
-          <div key={index}>
-            <li>
-            <Link to={`${el.category}`}>
-            <img src={el.img} alt={el.title}  style={{width:200}}/>
-            </Link>  
-            </li>
-            <h3>{el.price}</h3>
-          </div>
-        ))
-      }
+    <div style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: "20px", padding: "20px" }}>
+      {products.map((el) => (
+        <div key={el.id} style={{ border: "1px solid #ddd", padding: "10px", borderRadius: "10px", textAlign: "center" }}>
+          <Link to={`/category/${encodeURIComponent(el.category)}`}>
+            <img src={el.img} alt={el.title} style={{ width: "200px", height: "200px", objectFit: "cover" }} />
+          </Link>
+          <h3>{el.title}</h3>
+          <p>₹{el.price}</p>
+        </div>
+      ))}
     </div>
   )
 }

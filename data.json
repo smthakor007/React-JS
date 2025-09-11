@@ -1,22 +1,16 @@
 {
   "data": [
     {
-      "name": "Sunil",
-      "age": "21",
-      "price": "10000000",
-      "id": "3ef5"
+      "name": "sunil",
+      "age": "23",
+      "price": "150000",
+      "id": "8235"
     },
     {
-      "id": "1b8a",
-      "name": "urvish",
+      "id": "cb06",
+      "name": "Jaimin",
       "age": "21",
-      "price": "8000"
-    },
-    {
-      "id": "8235",
-      "name": "gopal vasani",
-      "age": "24",
-      "price": "150.20"
+      "price": "20"
     }
   ]
 }
