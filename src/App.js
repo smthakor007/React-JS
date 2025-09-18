@@ -39,6 +39,8 @@ import Api from './Component/Api';
 import Firebase from './Component/FirebaseDB';
 import FirebaseDatabase from './Component/FirebaseDatabase';
 import Firebaseedb from './Component/Firebaseedb';
+import Firestoree from './Component/Firestoree';
+
 // import Product from './Component/Product';
 // import Tabale from './Component/Tabale';
 // import Card from './Component/Card';
@@ -136,8 +138,9 @@ export default function App() {
       {/* <Api/> */}
       {/* <Firebase/> */}
       {/* <FirebaseDatabase/> */}
-      <Firebaseedb/>
-
+      {/* <Firebaseedb/> */}
+      <Firestoree/>
+      
 
 
       {/* <Comment/> */}
